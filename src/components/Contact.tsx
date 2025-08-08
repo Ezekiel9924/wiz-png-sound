@@ -36,6 +36,14 @@ const Contact = () => {
           <Button variant="studio" size="lg" className="text-lg px-8 py-4">
             Send Demo
           </Button>
+          <Button 
+            variant="outline" 
+            size="lg" 
+            className="text-lg px-8 py-4 border-studio-orange text-studio-orange hover:bg-studio-orange hover:text-studio-dark"
+            onClick={() => window.location.href = '/shop'}
+          >
+            Visit GL Shop
+          </Button>
         </div>
         
         <div className="flex justify-center gap-6 text-muted-foreground">
